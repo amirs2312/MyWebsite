@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(34, 34, 34);
+    /*background-image: url(Images/unnamed.jpeg);*/
+
+}
+
+.sidebar{
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(23, 23, 23);
+    width: 8%;
+    min-width: 140px;
+    border-bottom: 2px;
+    border-bottom-color: gray;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    z-index: 10;
+}
+
+.logo{
+    min-width: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 80%;
+    min-height: 170px;
+    height: 20%;
+}
+
+.logoimage{
+    margin-top: 20px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10%;
+}
+
+.logotext{
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 143, 155);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: none;
+    margin-top:6%;
+}
+
+.sidebartab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 0;
+    border-left:0;
+    border-top: 0;
+    border-bottom: 1px;
+    border-bottom-color: rgb(49, 49, 49);
+    border-style: solid;
+    min-height: 44px;;
+    height: 7%    
+  
+}
+
+.sidebartabicon{
+    width: 25%;
+    margin-right: 7%;
+   
+}
+
+.sbti-img{
+    object-fit: contain;
+    width: 70%;
+    opacity: 0.05;
+    margin-left: 18%;
+    transition: opacity 200ms;
+}
+
+.sidebartab-label{
+    width: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-weight: 300;
+    transition: color 250ms;
+    
+}
+
+.sidebartab:hover{
+    cursor: pointer;   
+}
+
+
+#sbt4-id:hover #sbtil4-id{
+    color: rgb(177, 255, 255);
+}
+
+#sbt4-id:hover #sbti4-img-id{
+    opacity:1;
+}
+
+
+
+#sbt1-id:hover #sbtil1-id{
+    color: rgb(199, 177, 255);
+}
+
+#sbt1-id:hover #sbti1-img-id{
+    opacity:1;
+}
+
+
+
+#sbt2-id:hover #sbtil2-id{
+    color: rgb(177, 255, 208);
+}
+
+#sbt2-id:hover #sbti2-img-id{
+    opacity:1;
+}
+
+
+
+#sbt3-id:hover #sbtil3-id{
+    color: rgb(238, 255, 177);
+}
+
+#sbt3-id:hover #sbti3-img-id{
+    opacity:1;
+}
+
+
+
+#sbt5-id:hover #sbtil5-id{
+    color: rgb(183, 177, 255);
+}
+
+#sbt5-id:hover #sbti5-img-id{
+    opacity:1;
+}
+
+.socialmediatab{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    min-height: 44px;
+    height: 7%;
+    margin-top: 90%;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.smicon{
+    object-fit: contain;
+    width: 25%;
+    opacity: 0.7;
+    transition: opacity 200ms;
+}
+
+#sm1-id:hover{
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+#sm2-id:hover{
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+#sm3-id:hover{
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

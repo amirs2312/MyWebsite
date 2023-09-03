@@ -1,0 +1,51 @@
+.card{
+    background-color: yellow;
+    width: 129.6px;
+    height: 206.4px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    transform-origin: 54px 270px;
+    right: -108px;
+    top: 30px;
+}
+
+.cardgroup{
+    background-color: aliceblue;
+
+}
+
+.test{
+    object-fit: contain;
+    width: 100%;
+}
+
+#card1-id{
+    background-color: rgb(237, 255, 70);
+    
+    
+}
+
+#card2-id{
+    background-color: rgb(84, 180, 244);
+    justify-content: center;
+}
+
+#card3-id{
+    background-color: rgb(244, 76, 76);
+}
+
+#card4-id{
+    background-color: rgb(0, 255, 115);
+}
+
+#card5-id{
+    background-color: rgb(255, 255, 255);
+
+    
+}
+
+#card2img{
+    width: 80%;
+}
+
